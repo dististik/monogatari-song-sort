@@ -1,3 +1,7 @@
+html{
+  background-color: #f7b4b4
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -22,6 +26,7 @@ body {
   border: 1px solid black;
   padding: 3px;
   margin: 2px 0px;
+  background-color: white;
 }
 
 .progresstext {
@@ -34,7 +39,7 @@ body {
 
 .progressfill {
   height: 20px;
-  background-color: lightgreen;
+  background-color: #4d4ae2;
   width: 0%;
 }
 
@@ -52,6 +57,7 @@ body {
   padding: 10%;
   grid-column: 2 / 3;
   cursor: pointer;
+  background-color: white;
 }
 
 .starting.start.button {
@@ -215,6 +221,7 @@ label:hover {
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid #000;
   margin-right: 5px;
+  background-color: white;
 }
 
 .result.image {
@@ -271,14 +278,14 @@ label:hover {
 }
 
 a {
-  color: #990000;
+  color: #6600FF;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: #FF6600;
+  color: #6600FF;
 }
 
 a:visited {
